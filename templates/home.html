@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="{{url_for('static',filename='CSS/clr.css')}}">
+
+	<title>Student Details</title>
+</head>
+<body class="bg-nav">
+<div style="margin-left: 50px;">
+		<h1 style="text-transform:uppercase; font-family: algerian;"> WELCOME  {{name}}</h1><br>
+<fieldset>
+		<legend><h1><u> Student Detail</u></h1></legend><br>
+
+	<div style="color: green;">
+		<h3> Name = {{name}} </h3>
+		<h3> DOB = {{dob}} </h3>
+		<h3> Email = {{email}} </h3>
+		<h3> Username = {{username}} </h3>
+	</div>
+
+			<a href="/"><input type="submit" class="form-control" value="Logout" style="background-color: #90EE90; border-color: red; color:black; font-size: 20px; padding: 5px; padding-left: 10px; padding-right: 10px;"></a>
+
+
+	</fieldset>
+</div>
+
+</body>
+</html>
